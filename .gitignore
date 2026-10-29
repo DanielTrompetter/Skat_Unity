@@ -1,0 +1,25 @@
+# Unity generierte Dateien
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# IDE und Editor
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# Unity Crash Reports
+sysinfo.txt
