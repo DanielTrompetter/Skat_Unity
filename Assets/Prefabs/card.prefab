@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2123849236231117156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1215796801126630701}
+  - component: {fileID: 1510927605729484325}
+  - component: {fileID: 2262780193679990964}
+  - component: {fileID: 6515856419505152762}
+  m_Layer: 0
+  m_Name: card
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1215796801126630701
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123849236231117156}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.19167, y: -0.22269}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1510927605729484325
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123849236231117156}
+  m_CullTransparentMesh: 1
+--- !u!114 &2262780193679990964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123849236231117156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6515856419505152762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123849236231117156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10c8e29bc9c4f01e8aa53b334b5546ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::card
+  twoOfClubs: {fileID: 7388822144124034973, guid: 3e818a61570ee8a8f868d1505061002f, type: 3}
+  threeOfClubs: {fileID: 7388822144124034973, guid: a0208331dc9d8b8e1975540e0a334f43, type: 3}
+  fourOfClubs: {fileID: 7388822144124034973, guid: ac5ce2872fdac87dfb0229a1e7fd24eb, type: 3}
+  fiveOfClubs: {fileID: 7388822144124034973, guid: 29c798a349db0097eb276c93b0b1c693, type: 3}
+  sixOfClubs: {fileID: 7388822144124034973, guid: b1c0dbf24812831eaae2853abb79a029, type: 3}
+  sevenOfClubs: {fileID: 7388822144124034973, guid: e1851a57b8d703f9384f22424d6f7d7f, type: 3}
+  eightOfClubs: {fileID: 7388822144124034973, guid: e3260ff60573cddf88542ba3bc8462a2, type: 3}
+  nineOfClubs: {fileID: 7388822144124034973, guid: 62633f04c8f4c596a8f34d6f64c6f0bd, type: 3}
+  tenOfClubs: {fileID: 7388822144124034973, guid: 430d06d1a4155eaaf8e702a4376f8693, type: 3}
+  jackOfClubs: {fileID: 7388822144124034973, guid: b804de961fb3d8a9f8f6804645989451, type: 3}
+  queenOfClubs: {fileID: 7388822144124034973, guid: 9dfef1ba377c91943a9ff07614e4cdf8, type: 3}
+  kingOfClubs: {fileID: 7388822144124034973, guid: b11e47b24a95ea4e59f474d7982cc4bf, type: 3}
+  aceOfClubs: {fileID: 7388822144124034973, guid: 9afc88891d4ed6c099e642b99a4a98c2, type: 3}
+  twoOfDiamonds: {fileID: 7388822144124034973, guid: 6a76934ac16b949548a6980be62fbc24, type: 3}
+  threeOfDiamonds: {fileID: 7388822144124034973, guid: 66f4f07ebf49759cf9fa06300e5fc969, type: 3}
+  fourOfDiamonds: {fileID: 7388822144124034973, guid: 9ed5c40bf259d120b8cd7098abb56112, type: 3}
+  fiveOfDiamonds: {fileID: 7388822144124034973, guid: 85d90784fd560e43fb0bbbe30a046576, type: 3}
+  sixOfDiamonds: {fileID: 7388822144124034973, guid: 53c80155213b40576a8ed471bb21c31d, type: 3}
+  sevenOfDiamonds: {fileID: 7388822144124034973, guid: 89129c88f29c9049181bcb7a4b2959fe, type: 3}
+  eightOfDiamonds: {fileID: 7388822144124034973, guid: 32e3b26c107f15ad6817162719f091a6, type: 3}
+  nineOfDiamonds: {fileID: 7388822144124034973, guid: 703349206fc3f3984be644ed664498e7, type: 3}
+  tenOfDiamonds: {fileID: 7388822144124034973, guid: a106292230a0d72a58ac6ebe46263459, type: 3}
+  jackOfDiamonds: {fileID: 7388822144124034973, guid: 279b2769d1f3e476696946a05037d0fe, type: 3}
+  queenOfDiamonds: {fileID: 7388822144124034973, guid: c18a5eab28cde65869340b3748d4bd7f, type: 3}
+  kingOfDiamonds: {fileID: 7388822144124034973, guid: 24f7918a5688a9501bc06c905c49ad6b, type: 3}
+  aceOfDiamonds: {fileID: 7388822144124034973, guid: 613d2a2fffaea8191bc006928d94da84, type: 3}
+  twoOfHearts: {fileID: 7388822144124034973, guid: 6c9a0ad28330d493f959d62ceb7582fd, type: 3}
+  threeOfHearts: {fileID: 7388822144124034973, guid: a2ce57b03f150fe75a11ee87d68dca90, type: 3}
+  fourOfHearts: {fileID: 7388822144124034973, guid: 469e763facead3d12a8cb6aae5d93393, type: 3}
+  fiveOfHearts: {fileID: 7388822144124034973, guid: f4b800bad6dc9fc958ca02f7180b6aaa, type: 3}
+  sixOfHearts: {fileID: 7388822144124034973, guid: d8d5c900fa2e0505b9830282eae58b91, type: 3}
+  sevenOfHearts: {fileID: 7388822144124034973, guid: f3ba19e237f5b04fa8acb76b3cee835f, type: 3}
+  eightOfHearts: {fileID: 7388822144124034973, guid: 7defc55f286f0e0a99a4079d1e3b7bb7, type: 3}
+  nineOfHearts: {fileID: 7388822144124034973, guid: bbc462dd5630e8daea9e24054bd3cd46, type: 3}
+  tenOfHearts: {fileID: 7388822144124034973, guid: 66250642bf9670e6c903c63b79432bd3, type: 3}
+  jackOfHearts: {fileID: 7388822144124034973, guid: 4b7ffe300bd69a541b1078aea53041f4, type: 3}
+  queenOfHearts: {fileID: 7388822144124034973, guid: 83e946268359346789a6a494f3be79d8, type: 3}
+  kingOfHearts: {fileID: 7388822144124034973, guid: d7b38fa5afd875dc8a157b2b10563e95, type: 3}
+  aceOfHearts: {fileID: 7388822144124034973, guid: 8b9137cabd3c86a63af44434a9d25816, type: 3}
+  twoOfSpades: {fileID: 7388822144124034973, guid: 40b3ee7f202bbe6adae008804ad38859, type: 3}
+  threeOfSpades: {fileID: 7388822144124034973, guid: ec17c1da752df9158b482f95bd052f63, type: 3}
+  fourOfSpades: {fileID: 7388822144124034973, guid: 5df73d5fb54d8650c8626b1f90c8ac45, type: 3}
+  fiveOfSpades: {fileID: 7388822144124034973, guid: 96c03550b0b339758b1fdad247e6012b, type: 3}
+  sixOfSpades: {fileID: 7388822144124034973, guid: 1281a2bf178d8bc2d9bd77503f8b1eed, type: 3}
+  sevenOfSpades: {fileID: 7388822144124034973, guid: 80b635656765d08f7acfa409b565632a, type: 3}
+  eightOfSpades: {fileID: 7388822144124034973, guid: 6005f09634fecfec78251859d23df635, type: 3}
+  nineOfSpades: {fileID: 7388822144124034973, guid: 006e07b802948365095d07117db74c49, type: 3}
+  tenOfSpades: {fileID: 7388822144124034973, guid: 522a76b13085a7e408b624c9352e8f03, type: 3}
+  jackOfSpades: {fileID: 7388822144124034973, guid: e977ee3eaa0b1af51ac0081d23362aeb, type: 3}
+  queenOfSpades: {fileID: 7388822144124034973, guid: 51e4d136f7ed3e6e09aa62c591d09923, type: 3}
+  kingOfSpades: {fileID: 7388822144124034973, guid: c4bda17ebc5d733c5b4ff5e6f90393cc, type: 3}
+  aceOfSpades: {fileID: 7388822144124034973, guid: bc64f055aa1255974b04d0812175ca05, type: 3}
+  redJoker: {fileID: 7388822144124034973, guid: 9b08d7bbf81a5934787f88a2a06c380d, type: 3}
+  blackJoker: {fileID: 7388822144124034973, guid: 524f8a34205804e718f3a96dd4dd12a7, type: 3}
